@@ -9,11 +9,11 @@ def my_collect(array)
 end
 
 def my_collect(array)
- i= 0 
+ i= 0
  result = []
-  while i < array.length 
+  while i < array.length
   result.push(yield array[i])
-  i= i+1 
+  i= i+1
 end
 result
 end
